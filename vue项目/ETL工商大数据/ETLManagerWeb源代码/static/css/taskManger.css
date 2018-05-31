@@ -1,0 +1,520 @@
+el-form-item__error.leftItem {
+    background-color: #f4f6f8;
+}
+.leftItem > ul > li{
+    cursor: pointer;
+}
+
+.leftItem > ul > li > a{
+    width: 100%;
+    line-height: 0.4rem;
+    display: inline-block;
+    padding-left: 0.1rem;
+    box-sizing: border-box;
+    color: #000;
+   /*  border-bottom: 0.01rem solid #ccc; */
+}
+
+.grayFirst, .graySecond, .grayThird{
+    background-color: #e7ecf2;
+   /*  border: none !important; */
+}
+
+.title{
+	height: 0.4rem;
+    line-height: 0.4rem;
+        font-size: 0.18rem;
+}
+
+/* 策略部分 */
+.strDiv,.mangerDiv,.historyDiv{
+	/* border: 0.01rem solid #ccc; */
+    border-radius: 0.03rem;
+    height:100%;
+   /*  width: 96%; */
+    margin: 0 auto;
+}
+
+/* 确定按钮 */
+.sureBtn{
+    width: 96%;
+    text-align: center;
+    height: 0.45rem;
+    vertical-align: middle;
+    padding-top: 0.07rem;
+ }
+
+ /* 添加任务 */
+.strDiv > p, .mangerDiv > p, .historyDiv > p{
+    /*line-height: 0.6rem;*/
+         line-height: 0.4rem;
+    border-bottom: 0.01rem solid #acb6bf;
+     box-shadow: 0 0.3rem 0.3rem rgba(199,209,218,0.5);
+        /*text-indent: 0.2rem;*/
+        padding-left: 0.2rem;
+        width:100%;
+        height:0.42rem;
+ }
+
+
+ .strDiv > p:first-child {
+    cursor: pointer;
+ }
+
+
+.newStrDiv .el-input, .strDiv .el-input, .mangerDiv .el-input{
+ 	width: auto !important;
+    vertical-align: middle;
+ }
+
+.strInput > input{
+    width: 1.5rem !important;
+}
+ /* 表格 */
+ .tableGation{
+ 	/* border:0.01rem solid #000; */
+ 	 width:100%;
+     height: calc(100% - 0.7rem);
+    padding: 0.1rem 0 0 0.2rem;
+ }
+
+
+ .tableGation > .showTable{
+ 	width: 100%;
+	/* border: 0.01rem solid #000 */
+    background-color: #fdfefe;
+    /* border: 0.01rem solid #e3e4e4; */
+    border-radius: 0.03rem;
+   /* height: 5.1rem; */
+ }
+
+ .tableGation > .showTable > div:first-child{
+    height: 0.29rem;
+    line-height: 0.29rem;
+    background-color: #f8fafb;
+    width: 100%;
+    border-bottom: 0.01rem solid #e3e4e4;
+    margin-bottom: 0.02rem;
+    text-indent: 0.1rem;
+ }
+
+ .showTable .el-table{
+    width: 99% !important;
+    margin:0 auto;
+ }
+
+/* 插件表格重置 */
+ tbody{
+    color: #000 !important;
+ }
+
+.strDiv .el-table__body-wrapper, .mangerDiv .el-table__body-wrapper{
+    overflow-x: hidden !important;
+    height: 4.1rem;
+ }
+
+ /* 分页 */
+ .pagation{
+    /* text-align: right; */
+    /* margin-right: 0.15rem */
+    position: relative;
+    width: 99%;
+    height: 0.45rem !important;
+    padding: 0.1rem 0;
+ }
+
+.pagation > .el-pagination{
+    position: absolute;
+    right: 0;
+    padding:0;
+    
+}
+
+
+.el-message-box__btns{
+    padding-right: 0;
+}
+
+ [class ^= "el-icon"]{
+    cursor: pointer;
+ }
+
+
+ /*任务管理 */
+/*  .mangerDiv, .historyDiv{
+       height: 4.75rem;
+} */
+
+
+ .mangerDiv .tableGation, .historyDiv .tableGation{
+    /* margin-top: 0.1rem; */
+ }
+
+.mangerDiv .el-table__body-wrapper, .historyDiv .el-table__body-wrapper{
+    height: 4.1rem !important;
+}
+
+.searchDutyName, .searchStrageName, .redNotice{
+    margin-left: 0.6rem;
+    display: inline-block;
+    font-size: 0.12rem;
+}
+
+.redNotice{
+    color: red;
+}
+/* history */
+.dash{
+    display: inline-block;
+    width: 0.2rem;
+    height: 0.04rem;
+    border-top: 0.01rem solid #ccc;
+    line-height: 0.4rem;
+    margin: 0 0.1rem;
+}
+
+/* 添加任务 */
+.newstrLayer{
+   /*  text-align: center; */
+}
+
+.newstrLayer > p{
+    margin:0.05rem 0 !important;
+}
+
+.newstrLayer .el-input,.newstrLayer .el-select{
+    width:25%;
+}
+
+.el-select > .el-input{
+    width: 100%;
+}
+
+.newstrLayer .el-form-item__label{
+    width: 45%;
+    display: inline-block;
+    text-align: right;
+}
+
+.newstrLayer .sureorclose{
+    text-align: right;
+}
+
+/* 验证红色提示信息 */
+.el-form-item__error{
+  /*  top:25% !important;
+    left: 70% !important;*/
+       /* position: relative;
+        text-align: center;*/
+}
+
+.el-form-item{
+    margin-bottom: 0.05rem !important;
+}
+
+/* 分页 */
+.el-pagination__sizes .el-input{
+    width: 110px !important;
+}
+
+
+.historyDiv .el-table__body-wrapper{
+    overflow-x: auto !important;
+}
+
+
+/* 修改策略 */
+.reviseStrDiv .el-form-item__label, .newStrDiv .el-form-item__label{
+    width: 45%;
+}
+
+.reviseStrDiv .el-select .el-input, .newStrDiv .el-select .el-input{
+    width: 1.5rem !important;
+}
+.reviseStrDiv .el-form>div:last-child, .newStrDiv .el-form>div:last-child{
+    text-align: right;
+}
+
+.newStrDiv .el-input{
+    width: 25%;
+}
+
+/* 任务关联 */
+ .pagation{
+    height: 32px;
+}
+
+
+.newStrDiv .el-dialog--tiny,.reviseStrDiv .el-dialog--tiny{
+    width: 45%;
+    min-width: 500px;
+    margin: auto;
+    top: 0 !important;
+    bottom: 0;
+    right: 0;
+    left: 0;
+    height: 3.3rem;
+    transform: none;
+}
+
+.newStrDiv .el-dialog--tiny .el-form-item,.reviseStrDiv .el-dialog--tiny .el-form-item{
+    height: 0.5rem;
+}
+
+.newStrDiv .el-dialog--tiny .el-form-item__error,.reviseStrDiv .el-dialog--tiny .el-form-item__error{
+    text-indent: 45%;
+    width: 100%;
+}
+
+
+.dutyChainDiv .el-dialog--tiny, .queryChainDiv .el-dialog--tiny{
+    width: 45%;
+    min-width: 600px;
+    margin: auto;
+    top: 0 !important;
+    bottom: 0;
+    right: 0;
+    left: 0;
+    height: 3.9rem;
+    transform: none;
+}
+
+
+
+.dutyChainDiv .el-table__body-wrapper{
+    height: 2rem;
+}
+
+.chainRed{
+    color:red;
+}
+
+/* 任务表格弹出框高度 */
+.mangerDialog .el-dialog__body{
+    height: 3.37rem;
+}
+
+
+.mangerDialog .leftItem > ul > li{
+    line-height: 0.3rem;
+    height: 0.3rem;
+    /* border-bottom: 0.01rem solid #ccc; */
+    padding-left: 0.1rem;
+}
+
+.mangerDialog .leftItem{
+    width: 20%;
+    overflow: auto;
+}
+
+
+.mangerDialog .rightContent{
+   width: 78%;
+   line-height: 2rem;
+   text-align: center;
+}
+
+.mangerDialog .el-dialog{
+    margin: auto;
+  top: 0 !important;
+    bottom: 0;
+    right: 0;
+    left: 0;
+    height: 3.8rem;
+    transform: none;
+}
+
+.rightContent > div:first-child{
+    height: 100%;
+}
+
+/* 表格样式重置, 表格行高 */
+
+.fa-link,.fa-chain-broken{
+    cursor: pointer;
+}
+
+/* 弹出框 */
+.el-dialog--tiny{
+    border-radius: 0.03rem;
+}
+
+.el-dialog__header, .el-message-box__header{
+    border: 0.01rem solid #e3e4e4;
+    padding: 0 10px !important;
+    height: 0.3rem;
+    line-height: 0.3rem;
+    background-color: #f6f8fa;
+    border-top-left-radius:0.03rem;
+    border-top-right-radius:0.03rem;
+}
+
+.el-dialog__headerbtn, .el-message-box__headerbtn{
+    line-height: 0.3rem;
+}
+
+.el-message-box__header > div{
+    display: inline-block;
+}
+
+.dutyChainDiv .el-dialog__body{
+     padding: 10px 10px !important;
+     padding-top: 0px !important;
+}
+
+.strCouldClick{
+    color: #20a0ff;
+    cursor: pointer;
+}
+
+/* 图标切换 */
+.chartLabel{
+    background-color: #bfd2e0;
+}
+
+.historyDiv .el-table .cell{
+    line-height: 20px;
+}
+
+
+/* 日历秒数样式 */
+.el-time-spinner__item{
+    line-height: normal !important;
+}
+
+/* 取消按钮在右边 */
+.floatRight{
+    float: right;
+    margin-left: 10px !important;
+    margin-bottom: 15px !important;
+}
+
+.fa{
+    cursor: pointer;
+}
+
+.rednote{
+    color: #ff4949;
+    margin-left:0.2rem;
+}
+
+.name-wrapper > span{
+    color: #20a0ff;
+    cursor: pointer;
+}
+
+
+/* 图标颜色设置 */
+
+.fa-play{
+    color: #13ce66;
+}
+.fa-plays,.fa-stops{
+    color: #d1dbe5
+}
+
+.fa-stop{
+    color: #ff4949;
+}
+
+/* 关联任务按钮 */
+.fa-link{
+    color: #20a0ff;
+}
+.searchMargin{
+    margin-left: 0.5rem !important;
+}
+
+.verticalAlign, .el-button--small{
+    vertical-align: middle;
+}
+
+input[type="number"]{
+    -moz-appearance:textfield;
+}
+
+.el-popover{
+    min-width: 0 !important;
+}
+
+.strRed{
+    display: inline-block;
+    width: 100%;
+    color: #ff4949;
+    text-align: center;
+}
+
+.closeItem{
+    display: none;
+}
+
+.strmsg{
+    max-width: 2rem;
+}
+
+.strmsg p{
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+/* 日历样式更改 */
+
+/*.el-date-picker__header{
+    height: 22px;
+}
+.el-date-picker__header-label{
+    float: left;
+}
+
+.el-date-picker__header > .el-date-picker__header-label:first-child{
+    background-color: red;
+    margin-left: 26%;
+}*/
+/*dh add*/
+.el-message-box__message p{
+        word-break:break-all !important;
+        word-wrap: break-word !important;
+}
+
+.el-select-dropdown{
+    width:1.5rem!important;
+    min-width: 0!important
+}
+
+.limitedWidth{
+    width: 100%;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    display: inline-block;
+}
+
+.el-button--default > span{
+    color:#fff;
+}
+
+.el-button--default{
+     background-color: #72b3ee!important;
+}
+
+.el-popover{
+    padding:0 !important;
+}
+
+.strmsg,.lastmsg{
+    padding: 10px;
+}
+
+.el-message-box__headerbtn{
+    top:0 !important;
+    right: 10px !important;
+    font-size: 14px;
+}
+
+.el-dialog__headerbtn .el-dialog__close{
+    color: #999 !important;
+}
+
+.exportFile{
+	display:none;
+}

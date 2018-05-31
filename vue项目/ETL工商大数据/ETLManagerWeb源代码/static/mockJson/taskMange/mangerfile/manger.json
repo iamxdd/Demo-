@@ -1,0 +1,179 @@
+{
+    "code": 0,
+    "message": "成功",
+    "total":1000,
+    "result": [{
+        "id": "2001",
+        "name": "job-01ffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffff",
+        "status": "停止",
+        "strategyName": "strategy01",
+        "scheduletype": "普通",
+        "scheduletime": "0s",
+        "createtime": "2017-05-03 11:40:20"
+    },
+    {
+       "id": "2002",
+        "name": "job-01",
+        "status": "执行",
+        "strategyName": "strategy01",
+        "scheduletype": "普通",
+        "scheduletime": "0s",
+        "createtime": "2017-05-03 11:40:20"
+    },
+{
+        "id": "2001",
+        "name": "job-01",
+        "status": "停止",
+        "strategyName": "strategy01",
+        "scheduletype": "普通",
+        "scheduletime": "0s",
+        "createtime": "2017-05-03 11:40:20"
+    },
+    {
+       "id": "2002",
+        "name": "job-01",
+        "status": "停止",
+        "strategyName": "strategy01",
+        "scheduletype": "普通",
+        "scheduletime": "0s",
+        "createtime": "2017-05-03 11:40:20"
+    },
+    {
+        "id": "2001",
+        "name": "job-01",
+        "status": "停止",
+        "strategyName": "strategy01",
+        "scheduletype": "普通",
+        "scheduletime": "0s",
+        "createtime": "2017-05-03 11:40:20"
+    },
+    {
+       "id": "2002",
+        "name": "job-01",
+        "status": "停止",
+        "strategyName": "strategy01",
+        "scheduletype": "普通",
+        "scheduletime": "0s",
+        "createtime": "2017-05-03 11:40:20"
+    },
+{
+        "id": "2001",
+        "name": "job-01",
+        "status": "停止",
+        "strategyName": "strategy01",
+        "scheduletype": "普通",
+        "scheduletime": "0s",
+        "createtime": "2017-05-03 11:40:20"
+    },
+    {
+       "id": "2002",
+        "name": "job-01",
+        "status": "停止",
+        "strategyName": "strategy01",
+        "scheduletype": "普通",
+        "scheduletime": "0s",
+        "createtime": "2017-05-03 11:40:20"
+    },{
+        "id": "2001",
+        "name": "job-01",
+        "status": "停止",
+        "strategyName": "strategy01",
+        "scheduletype": "普通",
+        "scheduletime": "0s",
+        "createtime": "2017-05-03 11:40:20"
+    },
+    {
+       "id": "2002",
+        "name": "job-01",
+        "status": "停止",
+        "strategyName": "strategy01",
+        "scheduletype": "普通",
+        "scheduletime": "0s",
+        "createtime": "2017-05-03 11:40:20"
+    },{
+        "id": "2001",
+        "name": "job-01",
+        "status": "停止",
+        "strategyName": "strategy01",
+        "scheduletype": "普通",
+        "scheduletime": "0s",
+        "createtime": "2017-05-03 11:40:20"
+    },
+    {
+       "id": "2002",
+        "name": "job-01",
+        "status": "停止",
+        "strategyName": "strategy01",
+        "scheduletype": "普通",
+        "scheduletime": "0s",
+        "createtime": "2017-05-03 11:40:20"
+    },{
+        "id": "2001",
+        "name": "job-01",
+        "status": "停止",
+        "strategyName": "strategy01",
+        "scheduletype": "普通",
+        "scheduletime": "0s",
+        "createtime": "2017-05-03 11:40:20"
+    },
+    {
+       "id": "2002",
+        "name": "job-01",
+        "status": "停止",
+        "strategyName": "strategy01",
+        "scheduletype": "普通",
+        "scheduletime": "0s",
+        "createtime": "2017-05-03 11:40:20"
+    },{
+        "id": "2001",
+        "name": "job-01",
+        "status": "停止",
+        "strategyName": "strategy01",
+        "scheduletype": "普通",
+        "scheduletime": "0s",
+        "createtime": "2017-05-03 11:40:20"
+    },
+    {
+       "id": "2002",
+        "name": "job-01",
+        "status": "停止",
+        "strategyName": "strategy01",
+        "scheduletype": "普通",
+        "scheduletime": "0s",
+        "createtime": "2017-05-03 11:40:20"
+    },{
+        "id": "2001",
+        "name": "job-01",
+        "status": "停止",
+        "strategyName": "strategy01",
+        "scheduletype": "普通",
+        "scheduletime": "0s",
+        "createtime": "2017-05-03 11:40:20"
+    },
+    {
+       "id": "2002",
+        "name": "job-01",
+        "status": "停止",
+        "strategyName": "strategy01",
+        "scheduletype": "普通",
+        "scheduletime": "0s",
+        "createtime": "2017-05-03 11:40:20"
+    },{
+        "id": "2001",
+        "name": "job-01",
+        "status": "停止",
+        "strategyName": "strategy01",
+        "scheduletype": "普通",
+        "scheduletime": "0s",
+        "createtime": "2017-05-03 11:40:20"
+    },
+    {
+       "id": "2002",
+        "name": "job-01",
+        "status": "停止",
+        "strategyName": "strategy01",
+        "scheduletype": "普通",
+        "scheduletime": "0s",
+        "createtime": "2017-05-03 11:40:20"
+    }]
+}

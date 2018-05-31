@@ -1,0 +1,70 @@
+/*内容区头部*/
+/*.bigCon .conHeader{
+  height:0.53rem;
+  width:100%;
+  background: #dde2e8;
+  border-bottom: 0.02rem solid #acb6bf;
+  box-shadow: 0.2rem 0.2rem 0.2rem #c7d1da
+}*/
+.innerLay{
+
+  /*新添加*/
+  .commonDiv{
+    width:48%;
+    height:2.9rem;
+    background: #FFf;
+    border-radius: 0.05rem;
+    float: left;
+    margin:0.1rem 0.13rem;
+    box-shadow:-0.02rem 0.02rem 0.02rem 0.02rem #c7d1da;
+    p{
+      text-indent: 0.1rem;
+      font-size: 0.13rem;
+      line-height: 0.3rem;
+      width: 100%;
+      height: 0.3rem;
+      background: #f6f7f9;
+      border-bottom: 0.01rem solid #e3e3e4;
+      border-top-right-radius: 0.05rem;
+      border-top-left-radius: 0.05rem;
+    }
+    #pieEchart{
+        width:100%;
+        margin:0.1rem auto;
+        height:2rem;
+        background: #f3f3f3;
+       }
+    #rightBot{
+       width:100%;
+       margin:0.1rem auto;
+       height:2rem;
+    }
+    #WeekEcharts{
+        width:100%;
+        margin:0.1rem auto;
+       height:2rem;
+    }
+    #DayEcharts{
+       width:100%;
+       margin:0.1rem auto;
+       height:2rem;
+    }
+  }
+  .NumTotal{
+    width:100%;
+    display: flex;
+    margin: 0.01rem auto;
+    height: 0.3rem;
+    dl{
+      flex:1;
+      margin:0 0.1rem;
+      text-align: center;
+      dt{
+        font-size:0.25rem;
+      }
+    }
+  }
+
+}
+
+  

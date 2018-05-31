@@ -1,0 +1,25 @@
+{
+  "name": "demo_sichuan",
+  "version": "0.1.0",
+  "private": true,
+  "devDependencies": {
+    "antd": "^2.12.5",
+    "echarts": "^3.6.2",
+    "jquery": "^3.2.1",
+    "react-redux": "^5.0.6",
+    "react-scripts": "1.0.0",
+    "redux": "^3.7.2",
+    "redux-logger": "^3.0.6",
+    "redux-thunk": "^2.2.0"
+  },
+  "dependencies": {
+    "react": "^15.5.4",
+    "react-dom": "^15.5.4"
+  },
+  "scripts": {
+    "start": "react-scripts start",
+    "build": "react-scripts build",
+    "test": "react-scripts test --env=jsdom",
+    "eject": "react-scripts eject"
+  }
+}

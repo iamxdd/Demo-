@@ -1,0 +1,11 @@
+{
+    "code": 0,
+    "message": "成功",
+    "result": {
+        "succnum": 2,
+        "failnum":2,
+        "totalnum": 4,
+        "succ": ["job-01", "job-02"],
+        "fail": ["job-03", "job-04"]
+    }
+}

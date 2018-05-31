@@ -1,0 +1,196 @@
+/*新版本*/
+.bigCon{
+	/*搜索部分*/
+	.conHeader{
+		border-bottom: 0.01rem solid #acb6bf;
+       box-shadow:  0 0.3rem 0.3rem rgba(199,209,218,0.7)
+	}
+	.nodeSearch{
+		width:97%;
+		height: .47rem;
+		margin:0 auto;
+		padding-top:0.1rem;
+		.elrowcon{
+			/*line-height: 0.4rem;*/
+			span{
+		    font-family: "微软雅黑";
+		    font-size: 0.12rem;
+			}
+			.el-col{
+				width:2.5rem;
+			}
+			.searchName{
+			 width:1.5rem;
+			 height:0.25rem;
+		  }
+		    .searchInputip1{
+			 width:1.5rem;
+			 height:0.25rem;
+		  }
+		     .searchport{
+		      width:1.5rem;
+			  height:0.25rem;
+		     }
+		     .eloption{
+              width:1.5rem;
+			  height:0.25rem;
+		     }
+		     .searchbtn{
+			   /* height: 0.27rem;
+		     	margin-top:0.05rem;
+		     	line-height: 0.01rem;*/
+
+		     }
+		}
+		
+	}
+	/*增加刷新部分*/
+	.NodeAdd{
+		width:100%;
+		height: 0.35rem;
+		margin:0 auto ;
+		line-height: 0.33rem;
+		background-image:-webkit-linear-gradient(to top, #dce2e7, #c7d2db);
+		background-image:linear-gradient(to top,#dce2e7,#c7d2db);
+
+		.box-card{
+			/*background: rgba(199,209,218,0.7);*/
+			.Addbtn{
+				height: 0.27rem;
+				margin:0 0 0 0.2rem;
+			}
+
+			.el-card__body{
+				padding: 0!important;
+				background-image:-webkit-linear-gradient(to top, #dce2e7, #c7d2db);
+		     background-image:linear-gradient(to top,#dce2e7,#c7d2db);
+				
+			}
+		}
+
+		.el-card{
+			border:0;
+			box-shadow:none
+		}
+		
+	}
+
+	/*表格部分*/
+	.innerLayTable{
+		width:100%;
+		margin: 0 auto;
+		.NodeItem{
+			width:98%;
+	        height: 4.8rem;
+	        margin:0 auto;
+	        border: 0.01rem solid #ccc;
+	        background: #fff;
+	        border-radius: 0.05rem;
+	        .tabletop{
+			width:100%;
+			font-size:0.14rem;
+			height: 0.28rem;
+			line-height: 0.28rem;
+			border-top-right-radius: 0.09rem;
+            border-top-left-radius: 0.09rem;
+            background: #f8f9fa;
+            text-indent: 0.15rem;
+		  }	
+		  .Divtable{
+/*			height:4rem;*/
+			overflow-x:hidden;
+			width: 100%;
+			.eltable{
+		   	width:100%;
+		   	overflow-x:hidden;
+		   	overflow-y: auto;
+		   	thead{
+		   		tr{
+		   		  	.cell{
+                        .el-table__column-filter-trigger{
+                          display: none;
+                        }
+		   		  	}
+		   		  
+		   		}
+		   	}
+		   	tbody{
+				color:#666666;
+				 .el-table td, .el-table th{
+                    height: 0.2rem
+		          }
+
+				} 
+		     }
+		    .el-table__body-wrapper {
+			    overflow: auto;
+			    position: relative;
+			    height: 3.5rem;
+			    overflow: auto;
+			    overflow-x: hidden;
+              }
+             .el-tag--success{
+             	background-color: rgba(255,73,73,.1);
+			    border-color: rgba(255,73,73,.2);
+			    color: #ff4949;
+              }
+              .el-tag--primary{
+              	background-color: rgba(18,206,102,.1);
+			    border-color: rgba(18,206,102,.2);
+			    color: #13ce66;
+              }
+              
+			}
+		   
+		}
+	
+	}
+	/*增加弹出框部分*/
+    .nodemes{
+     	/*margin-top:5%;*/
+     	span{
+     		display: inline-block;
+     		width:18%;
+     		text-align: right;
+     	} 
+     	p{
+     		color:red;
+     		margin-left:20%;
+     		height:0.3rem;
+     		line-height:0.3rem;
+     		font-size: 12px;
+     	}
+     	.el-textarea {
+		    display: inline-block!important;
+		    width: 69%!important;
+		    vertical-align: middle!important;
+       }
+     }
+     .dialog {
+     	width:8rem;
+     	height:6rem;
+     	margin:0 auto;
+     	top: 10%!important;
+     	.active{
+     	 border:1px solid red;
+     	 border-radius: 5px
+     	}
+     	input{
+     		width:2.5rem;
+     	}
+      }
+}
+
+.el-loading-mask{
+	background: #f1f1f1;
+	opacity: 0.8;
+	top:.5rem;
+} 
+.el-loading-spinner{
+	top:30%;
+}
+
+body .el-table-filter{
+	display:none
+}
+

@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Document</title>
+	<script src="vue.js"></script>
+	<!-- 引入样式 -->
+	<link rel="stylesheet" href="https://unpkg.com/element-ui/lib/theme-default/index.css">
+	<!-- <link rel="stylesheet" href="element.css"> -->
+	<!-- 引入组件库 -->
+     <!-- <script src="https://unpkg.com/element-ui/lib/index.js"></script> -->
+	<script src="element.js"></script>
+</head>
+<body>
+
+	<div id='app'>
+  <div class="block">
+    <span class="demonstration">默认</span>
+    <el-date-picker
+      v-model="value1"
+      type="date"
+      placeholder="选择日期"
+      >
+    </el-date-picker>
+  </div>
+
+  </div>
+  
+<script>  
+new Vue({  
+    el:'#app',  
+    data(){  
+        return {
+        pickerOptions0: {
+          disabledDate(time) {
+            return time.getTime() < Date.now() - 8.64e7;
+          }
+        },
+        value1: '',
+        value2: '',
+      }; 
+    },
+   mounted(){ 
+   	this.value1="2017-02-09"
+   },
+});  
+</script> 
+</body>
+</html>

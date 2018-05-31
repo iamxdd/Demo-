@@ -1,0 +1,10 @@
+{
+    "message": "刷新成功",
+    "data": {
+        "totalFinishedNum": 6,
+        "totalSuccessNum": 4,
+        "totalFailedNum": 2,
+        "runningNum": 3
+    },
+    "code": 200
+}

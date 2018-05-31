@@ -1,0 +1,6 @@
+{
+    "datas": [{"id":2,"name":"node11","ip":"10.0.2.215","port":8081,"status":0,"degree":0},{"id":5,"name":"node2","ip":"10.0.2.215","port":8084,"status":1,"degree":0},{"id":6,"name":"node3","ip":"10.0.2.215","port":8080,"status":1,"degree":0},{"id":9,"name":"node5","ip":"1.02.0.02","port":12323,"status":1,"degree":0},{"id":14,"name":"???","ip":"1.01.01.0","port":1111,"status":1,"degree":0},{"id":15,"name":"??","ip":"1.02.02.2","port":2323,"status":1,"degree":0}],
+    "totalNum": 6,
+    "status": "刷新成功",
+    "code": 0
+}

@@ -1,0 +1,13 @@
+{
+    "code": 0,
+    "message": "成ffffffffff功",
+    "result": [
+    	{"value":"0", "label": "没有日志"},
+	    {"value":"1", "label": "错误日志"},
+	    {"value":"2", "label": "最小日志"},
+	    {"value":"3", "label": "基本日志"},
+	    {"value":"4", "label": "详细日志"},
+	    {"value":"5", "label": "调试日志"},
+	    {"value":"6", "label": "行级日志"}
+    ]
+}

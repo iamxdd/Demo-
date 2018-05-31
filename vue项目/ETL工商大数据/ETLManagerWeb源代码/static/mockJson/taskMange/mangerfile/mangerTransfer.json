@@ -1,0 +1,32 @@
+{
+    "code": 0,
+    "message": "成功",
+    "result": {
+        "job": {
+            "id": "2001",
+            "name": "job-01"
+        },
+        "entrylist": {
+            "default": {
+                "name": "entity"
+            },
+            "details": [{
+                "name": "entity"
+            },
+            {
+                "name": "relation"
+            },
+            {
+                "name": "event"
+            },{
+                "name": "entityff"
+            },
+            {
+                "name": "relatio dfdfn"
+            },
+            {
+                "name": "evendfdt"
+            }]
+        }
+    }
+}

@@ -1,0 +1,13 @@
+{
+    "code": 0,
+    "message": "成功",
+    "result": {
+        "execStrategy": {
+            "name": "strategy01",
+            "execMode": "远程执行",
+            "execNode": "node_01",
+            "isPassExport": "N",
+            "logLevel": "基本日志"
+        }
+    }
+}
